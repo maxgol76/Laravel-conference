@@ -1,0 +1,141 @@
+body {
+    padding-top: 50px;
+}
+
+/*body {  для бэкграундной картинки чтоб на всю ширину сайта при любых масштабах
+    background: url("../img/back.jpg") no-repeat top fixed;
+    background-size: 100%;
+}*/
+
+title {
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+form {
+    min-width: 200px;
+}
+
+.starter-template {
+    margin-top: 50px;
+    /* max-width: 300px;*/
+}
+
+#btnsignup, #btnsignup2 {
+    margin-top: 30px;
+    max-width: 100px;
+    float: right;
+}
+
+.container-forms {
+    margin-bottom: 160px;
+}
+
+#link-all-member {
+    text-decoration: none;
+}
+
+#form-registr2, #soc-icon {
+    display: none;
+}
+
+#map {
+    width: 100%;
+    height: 450px;
+    /*height: 100%;*/
+    margin: 0px;
+    padding: 0px
+}
+
+.custom-file-input {
+    display: inline-block;
+    position: relative;
+    color: #fdf2ff;
+}
+
+.custom-file-input input {
+    visibility: hidden;
+    width: 120px;
+}
+
+.custom-file-input:before {
+    margin-top: -15px;
+    margin-left: 5px;
+    content: 'Choose Photo';
+    display: block;
+    background: -webkit-linear-gradient(-180deg, #208d1a, #208d1a);
+    background: -o-linear-gradient(-180deg, #208d1a, #208d1a);
+    background: -moz-linear-gradient(-180deg, #208d1a, #208d1a);
+    background: linear-gradient(-180deg, #208d1a, #208d1a);
+    border: 0px solid #208d1a;
+    border-radius: 5px;
+    padding: 10px 0px;
+    outline: none;
+    white-space: nowrap;
+    cursor: pointer;
+
+    text-align: center;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.custom-file-input:hover:before {
+    border-color: #febf01;
+}
+
+.custom-file-input:active:before {
+    background: #209e1a;
+}
+
+.file-blue:before {
+    content: 'Browse File';
+    background: -webkit-linear-gradient(-180deg, #99dff5, #02b0e6);
+    background: -o-linear-gradient(-180deg, #99dff5, #02b0e6);
+    background: -moz-linear-gradient(-180deg, #99dff5, #02b0e6);
+    background: linear-gradient(-180deg, #99dff5, #02b0e6);
+    border-color: #57cff4;
+    color: #FFF;
+    text-shadow: 1px 1px rgba(000, 000, 000, 0.5);
+}
+
+.file-blue:hover:before {
+    border-color: #02b0e6;
+}
+
+.file-blue:active:before {
+    background: #02b0e6;
+}
+
+#del-photo {
+    float: left;
+    margin-top: 5px;
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .custom-file-input:before {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    #del-photo {
+        margin-top: 15px;
+    }
+}
+
+#avatar {
+   width: 64px;
+   height: auto;
+}
+
+#uploadFile {
+    border: solid 1px #aaaaaa;
+    border-radius: 4px;
+
+    margin: 0 10px 10px 0;
+    padding: 0 12px 0 12px;
+    width: 220px;
+}
+
